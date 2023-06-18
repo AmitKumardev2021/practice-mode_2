@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 40px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.header ul li {
+text-transform:capitalize;
+color: beige;
+font-weight: 700;
+font-family: sans-serif;
+display: inline;
+position: relative;
+left: 10px;
+top: 10px;
+margin: 0 15px;
+cursor: pointer;
+/* background-color: aliceblue; */
+}
+
+#main_page{
+    background-color: royalblue;
+    height: 90vh;
+}
+
+.footer{
+    background-color: greenyellow;
+    height: 40px;
+    text-align: center;
+    
+
+}
+.footer p{
+    color: black;
+    padding: 6px;
+    font-family: sans-serif;
+    text-align: center;
+}
